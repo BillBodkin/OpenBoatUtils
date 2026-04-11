@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> development has moved to [https://github.com/OpenBoatUtils/OpenBoatUtils](https://github.com/OpenBoatUtils/OpenBoatUtils) since i have stepped down as maintainer.
+> this repo is no longer used for active development and all issues / contributions should be sent there instead.
+
 > <img src="https://github.com/o7Moon/OpenBoatUtils/blob/main/src/main/resources/assets/openboatutils/OpenBoatUtils.png?raw=true" width = 300>
 
 
