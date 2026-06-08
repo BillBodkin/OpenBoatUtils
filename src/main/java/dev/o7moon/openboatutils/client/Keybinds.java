@@ -158,8 +158,8 @@ public class Keybinds {
 
     private static void ensureCategoryOrder() {
         //? >=1.21.7 {
-        /*// KeyBinding.Category registers and orders itself on creation; nothing to do here.
-        *///? } else {
+        // KeyBinding.Category registers and orders itself on creation; nothing to do here.
+        //? } else {
         Map<String, Integer> order = KeyBindingAccessor.getCategoryOrderMap();
 
         if (!order.containsKey(CATEGORY)) {

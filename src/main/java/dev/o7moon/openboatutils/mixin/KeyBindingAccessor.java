@@ -19,9 +19,9 @@ public interface KeyBindingAccessor {
     }
 
     //? >=1.21.7 {
-    /*// 1.21.7+ replaced the string categories (and CATEGORY_ORDER_MAP) with KeyBinding.Category
+    // 1.21.7+ replaced the string categories (and CATEGORY_ORDER_MAP) with KeyBinding.Category
     // objects that order themselves by registration, so there is nothing to expose here.
-    *///? } else {
+    //? } else {
     /**
      * The {@code category -> order} map used by {@link KeyBinding#compareTo}. A category that is
      * missing here causes an NPE while the controls screen sorts its bindings, so our category
