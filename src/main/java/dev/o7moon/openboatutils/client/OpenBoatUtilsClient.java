@@ -57,6 +57,7 @@ public class OpenBoatUtilsClient implements ClientModInitializer {
 
         ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
             OpenBoatUtils.instance.resetAll();
+            Keybinds.clear();
             OpenBoatUtils.sendVersionPacket();
         });
 
